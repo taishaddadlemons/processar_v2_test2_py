@@ -32,9 +32,9 @@ int main() {
     float max_ch1=0, max_ch2=0, max_ch3=0, max_ch4=0;
     float t_receptor1, t_receptor2, t_receptor3, t_receptor4;
 
-    //char linha[256];
-    //int i=0;
-    /*while (i<1000) {
+    char linha[256];
+    int i=0;
+    while (i<1000) {
         fgets(linha,256,x1);
         char *parte = strtok(linha, ",");
         int coluna = 0;
@@ -79,13 +79,6 @@ int main() {
 
         i++;
     }
-    */
-    t_receptor1= 0.00085144;
-    t_receptor2= 0.00107976;
-    t_receptor3= 0.00127384;
-    t_receptor4= 0.00156336;
-
-
     printf("\nT1:%e\n", t_receptor1);
     printf("T2:%e\n", t_receptor2);
     printf("T3:%e\n", t_receptor3);
